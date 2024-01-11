@@ -381,7 +381,6 @@ li {
 }
 
 .work__item {
-    margin-top: 16px;
     border-radius: 4px;
     background: #fff;
     padding: 43px 42px;
@@ -389,8 +388,7 @@ li {
 }
 
 .work__item:hover {
-    margin-top: 0;
-    margin-bottom: 16px;
+    transform: translateY(-16px);
     border: 16px solid var(--bg-cl);
     cursor: pointer;
     transition: 0.25s;
